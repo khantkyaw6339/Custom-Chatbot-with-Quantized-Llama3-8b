@@ -5,6 +5,7 @@ This repository contains the code and instructions for fine-tuning the LLaMA 3 8
 ## Table of Contents
 - [Introduction](#introduction)
 - [Fine-Tuning Process](#fine-tuning-process)
+- [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 
@@ -23,6 +24,15 @@ The fine-tuning process leverages LoRA to adjust the LLaMA 3 8B model using the 
 3. Train the model on your specific task.
 4. Save the LoRA adapters.
 
+## Installation
+To use the chatbot, you'll need to install the required packages. You can do this using pip:
+
+``` python
+!pip install transformers
+!pip install bitsandbytes
+!pip install accelerate
+!pip install peft
+```
 ## Usage
 ### merging-lora-adapters
 
