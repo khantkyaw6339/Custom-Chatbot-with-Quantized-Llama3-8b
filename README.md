@@ -12,7 +12,7 @@ This repository contains the code and instructions for fine-tuning the LLaMA 3 8
 
 LLaMA 3 8B is a powerful language model, and fine-tuning it with LoRA and `unsloth` enables efficient adaptation for specific tasks. LoRA (Low-Rank Adaptation) allows for fine-tuning large models with fewer parameters by focusing on the key aspects that require adjustment, leading to significant memory and computational savings.
 
-In this project, we use the `llama-3-8b-bnb-4bit` model from `unsloth`. This variant of the LLaMA 3 8B model is quantized to 4-bit precision, significantly reducing memory usage and computational requirements. This makes it feasible to fine-tune and deploy on hardware with limited resources while maintaining high performance.
+In this project, I use the `llama-3-8b-bnb-4bit` model from `unsloth`. This variant of the LLaMA 3 8B model is quantized to 4-bit precision, significantly reducing memory usage and computational requirements. This makes it feasible to fine-tune and deploy on hardware with limited resources while maintaining high performance.
 
 ## Fine-Tuning Process
 
