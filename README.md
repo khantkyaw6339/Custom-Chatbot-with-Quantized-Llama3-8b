@@ -2,6 +2,8 @@
 
 This repository contains the code and instructions for fine-tuning the LLaMA 3 8B model using unsloth and Low-Rank Adaptation (LoRA) for quantization. The fine-tuning process focuses on optimizing the model with LoRA adapters to create a custom chatbot on a custom dataset. Note that the model saved consists only of LoRA adapters, not the full model. To generate responses, the saved LoRA adapters must be merged with the base model.
 
+<img src="llama_3.jpg" alt="llama3" width="500" height="200">
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Fine-Tuning Process](#fine-tuning-process)
